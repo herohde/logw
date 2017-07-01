@@ -5,17 +5,17 @@ Go libraries to log easily in multiple environments for a few fixed choices of
 logging mechanisms.
 
 ## Usage
-For AppEngine, use the request context:
-```
-ctx := appengine.NewContext(r)
-```
-
-Then call any logging or assert function:
+Simply call any logging or assert function:
 ```
 logw.Printf(ctx, "Message")
 logw.Warningf(ctx, "Message: %v", 3)
 
 logw.Assert(ctx, p > 5, "Value too small")
+```
+
+Note that for AppEngine, the request context should be used:
+```
+ctx := appengine.NewContext(r)
 ```
 
 ## License
