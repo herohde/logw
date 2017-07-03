@@ -1,6 +1,6 @@
 # logw
 
-[![Build Status](https://travis-ci.org/herohde/logw.svg?branch=master)](https://travis-ci.org/herohde/logw)
+[![Build Status](https://travis-ci.org/seekerror/logw.svg?branch=master)](https://travis-ci.org/seekerror/logw)
 
 Logw is a build-time log wrapper over glog and AppEngine logging. It is not a
 logging framework intended to be extensible and flexible, but rather to allow
